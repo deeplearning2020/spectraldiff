@@ -160,7 +160,7 @@ def save_model(model, path):
 
 def train():
     dataloader = HSIDataLoader(
-        {"data":{"data_sign":"Pavia", "padding":False, "batch_size":batch_size, "patch_size":patch_size, "select_spectral":select_spectral}})
+        {"data":{"data_sign":"Indian", "padding":False, "batch_size":batch_size, "patch_size":patch_size, "select_spectral":select_spectral}})
     train_loader,X,Y = dataloader.generate_torch_dataset(light_split=True)
     diffusion = Diffusion(T=T)
     model = SimpleUnet(_image_channels=channel)
