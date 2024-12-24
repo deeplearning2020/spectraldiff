@@ -17,19 +17,19 @@ from utils import device
 
 # for PU
 sign = 'PU'
+#batch_size = 20
+#patch_size = 64
+#select_spectral = []
+#spe = 104
+#channel = 1 #3d channel
+
+# for IP
+sign = 'IP'
 batch_size = 20
 patch_size = 64
 select_spectral = []
-spe = 104
+spe = 200
 channel = 1 #3d channel
-
-# for IP
-# sign = 'IP'
-# batch_size = 20
-# patch_size = 64
-# select_spectral = []
-# spe = 200
-# channel = 1 #3d channel
 
 # for SA
 # sign = 'SA'
