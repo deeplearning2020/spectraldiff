@@ -26,7 +26,7 @@ from utils import device
 # for IP
 sign = 'IP'
 batch_size = 20
-patch_size = 64
+patch_size = 7
 select_spectral = []
 spe = 200
 channel = 1 #3d channel
