@@ -16,7 +16,7 @@ from utils import AvgrageMeter, recorder, show_img
 from utils import device
 
 # for PU
-sign = 'PU'
+#sign = 'PU'
 #batch_size = 20
 #patch_size = 64
 #select_spectral = []
